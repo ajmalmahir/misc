@@ -1,13 +1,10 @@
-" number in margin
 :set number
-" syntax highlighting
 :syntax on
-" use spaces to insert a <TAB>
-:set expandtab
-" <TAB> indents with 4 space width
-:set tabstop=4
-" when indenting with '>', use 4 space width
-:set shiftwidth=4
+:set nohlsearch
+:set smartindent
+:set autoindent
+
+autocmd BufRead,BufNewFile *.htm,*.html,*.css,*.js setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 " plugin manager
 call plug#begin()
