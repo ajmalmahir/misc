@@ -9,6 +9,9 @@ autocmd BufRead,BufNewFile *.htm,*.html,*.css,*.js setlocal tabstop=2 shiftwidth
 " plugin manager
 call plug#begin()
 
-Plug 'preservim/nerdtree'
+Plug 'elihunter173/dirbuf.nvim'
+Plug 'folke/tokyonight.nvim'
 
 call plug#end()
+
+colorscheme tokyonight
