@@ -1,0 +1,17 @@
+general.import = [
+"~/.config/alacritty/tokyonight-night.toml"
+]
+
+[cursor]
+style = { "shape" = "Block", "blinking" = "Off" }
+
+[font]
+normal = { "family" = "Fira Code", "style" = "Regular" }
+bold = { "family" = "Fira Code", "style" = "Bold" }
+italic = { "family" = "Fira Code", "style" = "Light" }
+bold_italic = { "family" = "Fira Code", "style" = "SemiBold" }
+
+size = 11.25 # default
+
+[selection]
+save_to_clipboard = true # selected text will be copied to primary clipboard
